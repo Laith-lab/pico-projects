@@ -31,6 +31,7 @@ def setDifficulty(waitTime, startTime, endTime):
 
 
     
+difficulty = int(input("enter difficulty: "))
 
 while BUTTONONE.value() ==  0:
     LEDRED.value(0)
@@ -45,7 +46,6 @@ while BUTTONONE.value() ==  0:
     start = True
 
    
-difficulty = int(input("enter difficulty: "))
 
 easyDifficulty = setdifficulty(2,1,10)
 mediumDifficulty = setDifficulty(2,1,5)
